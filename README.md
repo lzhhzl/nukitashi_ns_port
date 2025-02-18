@@ -5,7 +5,7 @@
 
 ## 如何安装
 
-**注意：本补丁并不包含和提供任何原版的游戏文件（Dmm, Steam, DVD ver. 等等)，为了支持正版，请自行前往各平台购买游戏**
+**注意：本补丁仅供学习分享，并不包含和提供任何原版的游戏文件（Dmm, Steam, DVD ver. 等等)，为了支持正版，请自行前往各平台购买游戏**
 
 #### ***NUKITASHI 1***
 
@@ -21,9 +21,9 @@
 
 **下载链接：**[v1.1 点此下载](https://cloud.189.cn/web/share?code=q2Y7ZjmQJrQv（访问码：jgk2）)
 
-确保你的ns拥有Atmosphere OS，通过任意工具安装xxx.nsp，并建立对应的大气层补丁文件夹0100262019B1E000。
+确保你的ns拥有Atmosphere OS，通过任意工具安装0100262019b1e000.nsp，并建立对应的大气层补丁文件夹0100262019B1E000。
 
-确保你已安装steam原版的NUKITASHI 2、并已经打上了Shiravune的patch(如果不知道如何安装patch可以在[Shiravune官网顶部的 Patches](https://shiravune.com/)中找到)。将游戏文件夹下的NUKITAHI.pfs、NUKITASHI.pfs.000-013文件(共9个pfs文件)全部重命名为类似root.pfs、root.pfs.0xx的样式，将所有重命名后的pfs文件放入ns中刚建好的0100262019B1E000补丁文件夹中，即可开始游玩。
+确保你已安装steam原版的NUKITASHI 2、并已经打上了Shiravune的v2.0.1的patch(如果不知道如何安装patch可以在[Shiravune官网顶部的 Patches](https://shiravune.com/)中找到)。将游戏文件夹下的NUKITAHI.pfs、NUKITASHI.pfs.000-013文件(共9个pfs文件)全部重命名为类似root.pfs、root.pfs.0xx的样式，将所有重命名后的pfs文件放入ns中刚建好的0100262019B1E000补丁文件夹中，即可开始游玩。
 
 （额外可选补丁）root.pfs.015为部分素材优化修复补丁，可提升游戏运行的稳定性，推荐一块放入使用。
 
@@ -42,7 +42,7 @@
 | — 按键 | 回到主界面 | + 按键 | 隐藏/显示侧边菜单栏 |
 | 屏幕左滑 | 隐藏文本 | 屏幕右滑 | 跳过文本 |
 | 屏幕上滑 | 调出回想 | 屏幕下滑 | 显示设置菜单 |
-| 两指触控 |  | 三指触控 |  |
+| 两指触控 | 显示设置菜单 | 三指触控 | 略过全文（点击时） |
 
 ## 更新记录
 
