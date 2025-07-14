@@ -1,17 +1,19 @@
 # nukitashi_ns_port
 ## 简介
 
-个人基于komome(久岛鸥)大佬的移植思路完善的NUKITASHI 1+2 NS移植运行端口，运行程序和nsp壳是基于0100076015D4E000改动制作，Title ID和Icon借用了komome大佬移植制作的nsp壳(因为我不太擅长nsp的ui一类信息的改动所以就暂时先借用了)。
+个人基于 komome(久岛鸥) 大佬的移植思路完善的NUKITASHI 1+2 NS移植运行端口，运行程序和nsp壳是基于0100076015D4E000改动制作，Icon是借用了komome大佬自己移植制作的。
 
 ## 如何安装
 
-**注意：本补丁仅供学习分享，并不包含和提供任何原版的游戏文件（Dmm, Steam, DVD ver. 等等)，为了支持正版，请自行前往各平台购买游戏**
+**注意：本补丁仅供学习分享，并不包含和提供任何原版的游戏文件（Dmm, Steam, DVD ver. 等等)，目前暂不支持REMASTER日版，为了支持正版，请自行通过正规渠道获取游戏**
+
+**注意：如果你是v1.12之前下载的，请根据[v1.12的说明](#更新记录)更新至新TitleID的新版
 
 #### ***NUKITASHI 1***
 
-**下载链接：**[v1.1 点此下载](https://cloud.189.cn/web/share?code=q2Y7ZjmQJrQv（访问码：jgk2）)
+**下载链接：**[v1.12 点此下载](https://cloud.189.cn/web/share?code=q2Y7ZjmQJrQv（访问码：jgk2）)
 
-确保你的ns拥有Atmosphere OS，通过任意工具安装0100272018d1a000.nsp，并建立对应的大气层补丁文件夹0100272018D1A000。
+确保你的ns拥有Atmosphere OS，通过任意工具安装05000a401b544000.nsp，并建立对应的大气层补丁文件夹05000A401B544000。
 
 确保你已安装steam原版的NUKITASHI 1、并已经打上了Shiravune的v2.0.2的patch(如果不知道如何安装patch可以在[Shiravune官网顶部的 Patches](https://shiravune.com/)中找到)。将游戏文件夹下的NUKITAHI.pfs、NUKITASHI.pfs.000-021文件(共8个pfs文件)全部重命名为类似root.pfs、root.pfs.0xx的样式，将所有重命名后的pfs文件放入ns中刚建好的0100272018D1A000补丁文件夹中，即可开始游玩。
 
@@ -19,9 +21,9 @@
 
 #### ***NUKITASHI 2***
 
-**下载链接：**[v1.1 点此下载](https://cloud.189.cn/web/share?code=q2Y7ZjmQJrQv（访问码：jgk2）)
+**下载链接：**[v1.12 点此下载](https://cloud.189.cn/web/share?code=q2Y7ZjmQJrQv（访问码：jgk2）)
 
-确保你的ns拥有Atmosphere OS，通过任意工具安装0100262019b1e000.nsp，并建立对应的大气层补丁文件夹0100262019B1E000。
+确保你的ns拥有Atmosphere OS，通过任意工具安装05000a8af0aa0000.nsp，并建立对应的大气层补丁文件夹05000A8AF0AA0000。
 
 确保你已安装steam原版的NUKITASHI 2、并已经打上了Shiravune的v2.0.1的patch(如果不知道如何安装patch可以在[Shiravune官网顶部的 Patches](https://shiravune.com/)中找到)。将游戏文件夹下的NUKITAHI.pfs、NUKITASHI.pfs.000-013文件(共9个pfs文件)全部重命名为类似root.pfs、root.pfs.0xx的样式，将所有重命名后的pfs文件放入ns中刚建好的0100262019B1E000补丁文件夹中，即可开始游玩。
 
@@ -48,6 +50,8 @@
 
 #### ***NUKITASHI 1***
 
+- v1.12
+  - 修复了部分按键的功能映射，调整游戏的TitleID从0100272018D1A000改为05000A401B544000，如果是v1.1及之前的旧版请先将对应的大气层补丁文件夹改为新的TitleID并备份好当前游戏的存档，再将旧的游戏程序卸载并重新安装新的游戏程序（如果担心存档没备份好也可以先安装新的游戏程序、确保存档能正常备份转移后再卸载旧版程序）
 - v1.1
   - 调整autocache以修复了部分演出节点崩溃和跳过后调出回想崩溃
   - 去除压缩过的rule图片素材以修复部分演出
@@ -62,6 +66,8 @@
 
 #### ***NUKITASHI 2***
 
+- v1.12
+  - 修复了部分按键的功能映射，调整游戏的TitleID从0100262019B1E000改为05000A8AF0AA0000，如果是v1.1及之前的旧版请先将对应的大气层补丁文件夹改为新的TitleID并备份好当前游戏的存档，再将旧的游戏程序卸载并重新安装新的游戏程序（如果担心存档没备份好也可以先安装新的游戏程序、确保存档能正常备份转移后再卸载旧版程序）
 - v1.1
   - 调整autocache以修复了部分演出节点崩溃和跳过后调出回想崩溃
   - 去除压缩过的rule图片素材以修复部分演出
@@ -77,6 +83,6 @@
 
 - komome(久岛鸥) 首先尝试制作了硬移植版本
 
-- Sakari 给我提供了很多建议和帮助
+- [Sakari](https://github.com/sakarie9) 给我提供了很多建议和帮助
 
 - Qruppo，Shiravune 原作开发商与全球版发行商
