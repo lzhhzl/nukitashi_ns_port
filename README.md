@@ -1,7 +1,7 @@
 # nukitashi_ns_port
 ## 简介
 
-个人基于 komome(久岛鸥) 大佬的移植思路完善的NUKITASHI 1+2 NS移植运行端口，运行程序和nsp壳是基于0100076015D4E000改动制作，Icon是借用了komome大佬自己移植制作的。
+个人基于 kamome(久岛鸥) 大佬的移植思路完善的NUKITASHI 1+2 NS移植运行端口，运行程序和nsp壳是基于0100076015D4E000改动制作，Icon是借用了kamome大佬自己移植制作的。
 
 ## 如何安装
 
@@ -81,7 +81,7 @@
 
 ## 致谢
 
-- komome(久岛鸥) 首先尝试制作了硬移植版本
+- kamome(久岛鸥) 首先尝试制作了硬移植版本
 
 - [Sakari](https://github.com/sakarie9) 给我提供了很多建议和帮助
 
